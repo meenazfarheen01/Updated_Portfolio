@@ -48,7 +48,8 @@ h2:after{
     color:#f6f6f6 !important;
 }
 #menu-items a:hover{
-    color:#990100 !important;
+    opacity: 0.6;
+    transform: translateY(-2px);
 }
 .btn-red:hover{
     background-color:#990100;
@@ -115,6 +116,14 @@ h2:after{
 }
 .resume a:hover{
     color:#f6f6f6 !important;
+}
+#projects span{
+    color:#990100;
+    text-shadow: 0 0 3px #333333, 0 0 5px #333333;
+
+}
+#projects h5{
+    color:#990100;
 }
 #contact span{
     color:#990100;
